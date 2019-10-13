@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".view.activity.ShowPersonDetailsActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:paddingTop="30dp"
+                  android:layout_marginRight="16dp"
+                  android:layout_marginLeft="16dp"
+                  android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/title"
+                  android:layout_marginLeft="16dp"
+                  android:textColor="@color/textBlackColor"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginBottom="16dp"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:fontFamily="sans-serif-medium"
+                  android:text="Personel Künyesi"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginLeft="16dp"
+                  android:id="@+id/nameTitle"
+                  android:text="Ad - Soyad "/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/nameTitle"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="16dp"
+                  android:textColor="@color/textBlackColor"
+                  android:textSize="15dp"
+                  android:id="@+id/name"
+                  android:textStyle="bold"
+                  android:text="Umut Soysal"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginLeft="16dp"
+                  android:id="@+id/birthDateTitle"
+                  android:text="Doğum Tarihi"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/birthDateTitle"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="16dp"
+                  android:textColor="@color/textBlackColor"
+                  android:textSize="15dp"
+                  android:id="@+id/birthDate"
+                  android:textStyle="bold"
+                  android:text="10.07.1996"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginLeft="16dp"
+                  android:id="@+id/addressTitle"
+                  android:text="Adres"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/addressTitle"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="16dp"
+                  android:textColor="@color/textBlackColor"
+                  android:textSize="15dp"
+                  android:id="@+id/address"
+                  android:textStyle="bold"
+                  android:text="Üsküdar - İstanbul"/>
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="16dp"
+                  android:layout_marginLeft="16dp"
+                  android:id="@+id/hobbyTitle"
+                  android:text="Hobiler"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/hobbyTitle"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginLeft="16dp"
+                  android:textColor="@color/textBlackColor"
+                  android:textSize="15dp"
+                  android:textStyle="bold"
+                  android:id="@+id/hobby"
+                  android:text="Kitap Okumak, Gezmek"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
